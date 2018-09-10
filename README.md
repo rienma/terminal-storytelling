@@ -1,4 +1,4 @@
-# terminal-typed-message-ascii
+# terminal-storytelling
 
 ## Goal
 

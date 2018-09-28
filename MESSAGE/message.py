@@ -2,12 +2,6 @@
 import sys, pickle, time
 
 #FUNCTIONS
-def slow_writing(str,speed):
-    for letter in str:
-        sys.stdout.write(letter)
-        sys.stdout.flush()
-        time.sleep(speed)
-
 def open_pickled_list(name):
     with open(name, 'rb') as file:
          return pickle.load(file)
